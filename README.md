@@ -11,6 +11,7 @@ Project URL: https://roadmap.sh/projects/nodejs-folder-info
 | Project | Deskripsi |
 | --- | --- |
 | [folder.info](./folder.info) ([project page](https://roadmap.sh/projects/nodejs-folder-info)) | CLI Node.js untuk menampilkan informasi folder: path, jumlah file, dan jumlah sub-folder. |
+| [file.counter](./file.counter) ([project page](https://roadmap.sh/projects/nodejs-file-counter)) | CLI Node.js untuk menghitung jumlah baris, kata, dan karakter dari sebuah file teks. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 
