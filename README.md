@@ -12,6 +12,7 @@ Project URL: https://roadmap.sh/projects/nodejs-folder-info
 | --- | --- |
 | [folder.info](./folder.info) ([project page](https://roadmap.sh/projects/nodejs-folder-info)) | CLI Node.js untuk menampilkan informasi folder: path, jumlah file, dan jumlah sub-folder. |
 | [file.counter](./file.counter) ([project page](https://roadmap.sh/projects/nodejs-file-counter)) | CLI Node.js untuk menghitung jumlah baris, kata, dan karakter dari sebuah file teks. |
+| [github.profile.details](./github.profile.details) ([project page](https://roadmap.sh/projects/nodejs-github-profile-details)) | CLI Node.js untuk menampilkan detail profil publik pengguna GitHub: nama, username, URL profil, jumlah repo publik, dan followers. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 
