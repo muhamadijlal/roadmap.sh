@@ -8,7 +8,7 @@ Repository: https://github.com/muhamadijlal/roadmap.sh
 
 ## Requirements
 
-- Node.js 22 or newer (the script uses ES module syntax)
+- Node.js 18 or newer (ES modules are used)
 
 ## Installation
 
@@ -42,10 +42,11 @@ node file-counter.js notes.txt
 
 ### Errors
 
-If no file path is given, the program prints:
+If no file path is given, or the file cannot be read, the program prints an error message to stderr and exits with code `1`:
 
 ```
 error: please provide a file path
+error: could not read file: nope.txt
 ```
 
 ## How it works

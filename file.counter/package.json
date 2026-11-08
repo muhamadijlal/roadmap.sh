@@ -1,0 +1,11 @@
+{
+  "name": "file.counter",
+  "version": "1.0.0",
+  "description": "CLI that counts lines, words, and characters in a text file",
+  "main": "file-counter.js",
+  "scripts": {
+    "start": "node file-counter.js"
+  },
+  "license": "ISC",
+  "type": "module"
+}
