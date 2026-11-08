@@ -4,7 +4,11 @@ Repository ini berisi hasil pengerjaan project-project dari [roadmap.sh/projects
 
 Repository: https://github.com/muhamadijlal/roadmap.sh
 
-Project URL: https://roadmap.sh/projects/nodejs-folder-info
+Project URL:
+
+- folder.info: https://roadmap.sh/projects/nodejs-folder-info
+- file.counter: https://roadmap.sh/projects/nodejs-file-counter
+- github.profile.details: https://roadmap.sh/projects/nodejs-github-profile-details
 
 ## Daftar Project
 
