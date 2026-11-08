@@ -2,7 +2,7 @@
 
 A simple Node.js CLI that shows information about a folder: its path, the number of files, and the number of sub-folders.
 
-Project URL: https://github.com/muhamadijlal/roadmap.sh.git
+Project URL: https://github.com/muhamadijlal/roadmap.sh
 
 ## Requirements
 
@@ -11,8 +11,8 @@ Project URL: https://github.com/muhamadijlal/roadmap.sh.git
 ## Installation
 
 ```bash
-git clone https://github.com/USERNAME/folder.info.git
-cd folder.info
+git clone https://github.com/muhamadijlal/roadmap.sh.git
+cd roadmap.sh/folder.info
 ```
 
 No dependencies to install.
