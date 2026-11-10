@@ -11,6 +11,7 @@ Project URL:
 - github.profile.details: https://roadmap.sh/projects/nodejs-github-profile-details
 - json.formatter: https://roadmap.sh/projects/nodejs-json-formatter
 - env.checker: https://roadmap.sh/projects/nodejs-env-checker
+- task.tracker: https://roadmap.sh/projects/task-tracker
 
 ## Daftar Project
 
@@ -21,6 +22,7 @@ Project URL:
 | [github.profile.details](./github.profile.details) ([project page](https://roadmap.sh/projects/nodejs-github-profile-details)) | CLI Node.js untuk menampilkan detail profil publik pengguna GitHub: nama, username, URL profil, jumlah repo publik, dan followers. |
 | [json.formatter](./json.formatter) ([project page](https://roadmap.sh/projects/nodejs-json-formatter)) | CLI Node.js untuk membaca file JSON, memvalidasinya, lalu menampilkannya dalam format rapi (indentasi 2 spasi). |
 | [env.checker](./env.checker) ([project page](https://roadmap.sh/projects/nodejs-env-checker)) | CLI Node.js untuk memeriksa apakah environment variable yang disebutkan sudah di-set, dan menampilkan yang belum. |
+| [task.tracker](./task.tracker) ([project page](https://roadmap.sh/projects/task-tracker)) | CLI Node.js untuk mengelola daftar task: tambah, ubah, hapus, tandai in-progress/done, dan tampilkan berdasarkan status. Data disimpan di file JSON. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 
