@@ -1,0 +1,27 @@
+{
+  "name": "roadmap.sh",
+  "version": "1.0.0",
+  "description": "Repository ini berisi hasil pengerjaan project-project dari [roadmap.sh/projects](https://roadmap.sh/projects).",
+  "main": "index.js",
+  "bin": {
+    "expense-tracker": "./main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/muhamadijlal/roadmap.sh.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/muhamadijlal/roadmap.sh/issues"
+  },
+  "homepage": "https://github.com/muhamadijlal/roadmap.sh#readme",
+  "dependencies": {
+    "commander": "^15.1.0"
+  }
+}
