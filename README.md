@@ -14,6 +14,7 @@ Project URL:
 - task.tracker: https://roadmap.sh/projects/task-tracker
 - github.user.activity: https://roadmap.sh/projects/github-user-activity
 - expense.tracker: https://roadmap.sh/projects/expense-tracker
+- numbering.guessing.game: https://roadmap.sh/projects/number-guessing-game
 
 ## Daftar Project
 
@@ -27,6 +28,7 @@ Project URL:
 | [task.tracker](./task.tracker) ([project page](https://roadmap.sh/projects/task-tracker)) | CLI Node.js untuk mengelola daftar task: tambah, ubah, hapus, tandai in-progress/done, dan tampilkan berdasarkan status. Data disimpan di file JSON. |
 | [github.user.activity](./github.user.activity) ([project page](https://roadmap.sh/projects/github-user-activity)) | CLI Node.js untuk menampilkan aktivitas publik terbaru seorang pengguna GitHub (push, issue, pull request, star, dll.) dari GitHub API, dengan event yang sama digabung beserta jumlahnya. |
 | [expense.tracker](./expense.tracker) ([project page](https://roadmap.sh/projects/expense-tracker)) | CLI Node.js untuk mencatat pengeluaran: tambah, lihat daftar, hapus, dan ringkasan total (keseluruhan atau per bulan). Data disimpan di file JSON. |
+| [numbering.guessing.game](./numbering.guessing.game) ([project page](https://roadmap.sh/projects/number-guessing-game)) | CLI Node.js berupa game tebak angka 1-100 dengan tiga level kesulitan (Easy, Medium, Hard), petunjuk lebih besar/kecil di setiap tebakan, dan opsi main lagi. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 
