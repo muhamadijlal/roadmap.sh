@@ -16,6 +16,7 @@ Project URL:
 - expense.tracker: https://roadmap.sh/projects/expense-tracker
 - numbering.guessing.game: https://roadmap.sh/projects/number-guessing-game
 - unit.converter: https://roadmap.sh/projects/unit-converter
+- personal.blog: https://roadmap.sh/projects/personal-blog
 
 ## Daftar Project
 
@@ -31,6 +32,7 @@ Project URL:
 | [expense.tracker](./expense.tracker) ([project page](https://roadmap.sh/projects/expense-tracker)) | CLI Node.js untuk mencatat pengeluaran: tambah, lihat daftar, hapus, dan ringkasan total (keseluruhan atau per bulan). Data disimpan di file JSON. |
 | [numbering.guessing.game](./numbering.guessing.game) ([project page](https://roadmap.sh/projects/number-guessing-game)) | CLI Node.js berupa game tebak angka 1-100 dengan tiga level kesulitan (Easy, Medium, Hard), petunjuk lebih besar/kecil di setiap tebakan, dan opsi main lagi. |
 | [unit.converter](./unit.converter) ([project page](https://roadmap.sh/projects/unit-converter)) | Aplikasi web untuk konversi satuan panjang, berat, dan suhu. Backend Express menyediakan endpoint `POST /api/convert`, frontend memakai React (Vite + Tailwind CSS). |
+| [personal.blog](./personal.blog) ([project page](https://roadmap.sh/projects/personal-blog)) | Aplikasi web blog pribadi (Express + EJS). Pengunjung bisa membaca artikel, sedangkan admin (Basic Auth) bisa menambah, mengubah, dan menghapus artikel. Artikel disimpan sebagai file JSON. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 

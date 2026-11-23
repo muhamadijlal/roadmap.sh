@@ -1,0 +1,30 @@
+<%- include("../partials/header", { title: heading }) %>
+
+<h1><%= heading %></h1>
+
+<% if (errors.length) { %>
+  <ul class="errors">
+    <% errors.forEach(e => { %><li><%= e %></li><% }) %>
+  </ul>
+<% } %>
+
+<form method="POST" action="<%= action %>" class="form">
+  <label>Judul
+    <input type="text" name="title" maxlength="150" required value="<%= values.title %>">
+  </label>
+
+  <label>Tanggal publikasi
+    <input type="date" name="publishedAt" required value="<%= values.publishedAt %>">
+  </label>
+
+  <label>Isi artikel
+    <textarea name="content" rows="12" required><%= values.content %></textarea>
+  </label>
+
+  <div class="actions">
+    <button type="submit">Simpan</button>
+    <a href="/admin">Batal</a>
+  </div>
+</form>
+
+<%- include("../partials/footer") %>

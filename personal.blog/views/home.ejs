@@ -1,0 +1,16 @@
+<%- include("partials/header", { title: "Beranda" }) %>
+
+<h1>Artikel</h1>
+
+<% if (articles.length === 0) { %>
+  <p>Belum ada artikel.</p>
+<% } %>
+
+<% articles.forEach(a => { %>
+  <article class="card">
+    <h2><a href="/articles/<%= a.id %>"><%= a.title %></a></h2>
+    <small><%= a.publishedAt %></small>
+  </article>
+<% }) %>
+
+<%- include("partials/footer") %>

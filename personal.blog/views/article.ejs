@@ -1,0 +1,11 @@
+<%- include("partials/header", { title: article.title }) %>
+
+<article class="post">
+  <h1><%= article.title %></h1>
+  <time datetime="<%= article.publishedAt %>"><%= article.publishedAt %></time>
+  <div class="content"><%= article.content %></div>
+</article>
+
+<p><a href="/">&larr; Kembali</a></p>
+
+<%- include("partials/footer") %>

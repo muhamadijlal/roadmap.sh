@@ -1,0 +1,11 @@
+<%- include("../partials/header", { title: "Hapus artikel" }) %>
+
+<h1>Hapus artikel?</h1>
+<p>Artikel <strong><%= article.title %></strong> akan dihapus permanen.</p>
+
+<form method="POST" action="/admin/delete/<%= article.id %>" class="actions">
+  <button type="submit" class="danger">Ya, hapus</button>
+  <a href="/admin">Batal</a>
+</form>
+
+<%- include("../partials/footer") %>
