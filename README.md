@@ -17,6 +17,7 @@ Project URL:
 - numbering.guessing.game: https://roadmap.sh/projects/number-guessing-game
 - unit.converter: https://roadmap.sh/projects/unit-converter
 - personal.blog: https://roadmap.sh/projects/personal-blog
+- weather.api: https://roadmap.sh/projects/weather-api-wrapper-service
 
 ## Daftar Project
 
@@ -33,6 +34,7 @@ Project URL:
 | [numbering.guessing.game](./numbering.guessing.game) ([project page](https://roadmap.sh/projects/number-guessing-game)) | CLI Node.js berupa game tebak angka 1-100 dengan tiga level kesulitan (Easy, Medium, Hard), petunjuk lebih besar/kecil di setiap tebakan, dan opsi main lagi. |
 | [unit.converter](./unit.converter) ([project page](https://roadmap.sh/projects/unit-converter)) | Aplikasi web untuk konversi satuan panjang, berat, dan suhu. Backend Express menyediakan endpoint `POST /api/convert`, frontend memakai React (Vite + Tailwind CSS). |
 | [personal.blog](./personal.blog) ([project page](https://roadmap.sh/projects/personal-blog)) | Aplikasi web blog pribadi (Express + EJS). Pengunjung bisa membaca artikel, sedangkan admin (Basic Auth) bisa menambah, mengubah, dan menghapus artikel. Artikel disimpan sebagai file JSON. |
+| [weather.api](./weather.api) ([project page](https://roadmap.sh/projects/weather-api-wrapper-service)) | API cuaca Node.js (Express) yang membungkus Visual Crossing: endpoint `GET /weather/:city` mengembalikan kondisi saat ini dan prakiraan 7 hari. Hasil di-cache di Redis agar permintaan berulang tidak memanggil API asli, dan dilindungi rate limiting. |
 
 Setiap project berada di foldernya masing-masing dan memiliki `README.md` sendiri yang menjelaskan cara instalasi dan penggunaan.
 
